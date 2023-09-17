@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="responsive.css">
+  <title>Frontend Mentor | Multi-step form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <aside class="mobile">
+    <div class="steps">
+      <div class="step">
+        <div class="circle active">1</div>
+        <div class="step-info">
+          <span>Step 1</span>
+          <strong>Your info</strong>
+        </div>
+      </div>
+      <div class="step">
+        <div class="circle">2</div>
+        <div class="step-info">
+          <span>Step 2</span>
+          <strong>Select plan</strong>
+        </div>
+      </div>
+      <div class="step">
+        <div class="circle">3</div>
+        <div class="step-info">
+          <span>Step 3</span>
+          <strong>Add-ons</strong>
+        </div>
+      </div>
+      <div class="step">
+        <div class="circle">4</div>
+        <div class="step-info">
+          <span>Step 4</span>
+          <strong>Summary</strong>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <div class="main">
+    <!-- Sidebar start -->
+    <aside>
+      <div class="steps">
+        <div class="step">
+          <div class="circle active">1</div>
+          <div class="step-info">
+            <span>Step 1</span>
+            <strong>Your info</strong>
+          </div>
+        </div>
+        <div class="step">
+          <div class="circle">2</div>
+          <div class="step-info">
+            <span>Step 2</span>
+            <strong>Select plan</strong>
+          </div>
+        </div>
+        <div class="step">
+          <div class="circle">3</div>
+          <div class="step-info">
+            <span>Step 3</span>
+            <strong>Add-ons</strong>
+          </div>
+        </div>
+        <div class="step">
+          <div class="circle">4</div>
+          <div class="step-info">
+            <span>Step 4</span>
+            <strong>Summary</strong>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <!-- Sidebar end -->
+
+    <!-- Step 1 start -->
+    <main>
+      <h2>Personal info</h2>
+      <p class="p">Please provide your name, email address, and phone number.</p>
+
+      <div class="userinfo">
+        <div>
+          <div class="message">
+            <span>Name</span>
+            <span class="error error-name">This field is required</span>
+          </div>
+          <input type="text" placeholder="  e.g. Stephen King" class="name">
+        </div>
+        <div>
+          <div class="message">
+            <span>Email Address</span>
+            <span class="error error-email">This field is required</span>
+          </div>
+          <input type="text" placeholder="  e.g. stephenking@lorem.com" class="email">
+        </div>
+        <div>
+          <div class="message">
+            <span>Phone Number</span>
+            <span class="error error-number">This field is required</span>
+          </div>
+          <input type="text" placeholder="  e.g. +1 234 567 890" class="number">
+        </div>
+      </div>
+    
+      
+      <a href="index.html" class="back-btn" style="visibility: hidden;">Go back</a>
+      <a href="page2.html" class="button">Next Step</a>
+      
+    </main>
+    <!-- Step 1 end -->
+  </div>
+  <div class="bottom">    
+    <a href="index.html" class="back-btn back-mobile">Go back</a>
+    <a href="page3.html" class="button mobile-btn">Next Step</a>
+  </div>
+
+
+ 
+
+ 
+  <script src="index.js"></script>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>

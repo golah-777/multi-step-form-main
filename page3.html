@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Multi-step form</title>
+</head>
+<!-- Step 3 start -->
+<body>
+  <aside class="mobile">
+    <div class="steps">
+      <div class="step">
+        <div class="circle">1</div>
+        <div class="step-info">
+          <span>Step 1</span>
+          <strong>Your info</strong>
+        </div>
+      </div>
+      <div class="step">
+        <div class="circle">2</div>
+        <div class="step-info">
+          <span>Step 2</span>
+          <strong>Select plan</strong>
+        </div>
+      </div>
+      <div class="step">
+        <div class="circle  active">3</div>
+        <div class="step-info">
+          <span>Step 3</span>
+          <strong>Add-ons</strong>
+        </div>
+      </div>
+      <div class="step">
+        <div class="circle">4</div>
+        <div class="step-info">
+          <span>Step 4</span>
+          <strong>Summary</strong>
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="main">
+    <!-- Sidebar start -->
+    <aside>
+      <div class="steps">
+        <div class="step">
+          <div class="circle">1</div>
+          <div class="step-info">
+            <span>Step 1</span>
+            <strong>Your info</strong>
+          </div>
+        </div>
+        <div class="step">
+          <div class="circle">2</div>
+          <div class="step-info">
+            <span>Step 2</span>
+            <strong>Select plan</strong>
+          </div>
+        </div>
+        <div class="step">
+          <div class="circle active">3</div>
+          <div class="step-info">
+            <span>Step 3</span>
+            <strong>Add-ons</strong>
+          </div>
+        </div>
+        <div class="step">
+          <div class="circle">4</div>
+          <div class="step-info">
+            <span>Step 4</span>
+            <strong>Summary</strong>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <!-- Sidebar end -->
+
+    <!-- Step 2 start -->
+    <main>
+      <h2>Pick add-ons</h2>
+      <p class="p">Add-ons help enhance your gaming experience.</p>
+
+      <div>
+        <div class="outer-add-on" id="add-on-one">
+          <div class="check-box check-one">
+           <div class="tick">
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="9" viewBox="0 0 12 9"><path fill="none" stroke="#FFF" stroke-width="2" d="m1 4 3.433 3.433L10.866 1"/></svg>
+           </div>
+          </div>
+          <div class="text-flex">
+            <div class="main-add-on">
+              <span class="text online">Online service</span>
+              <p class="P">Access to multiplayer games</p>
+            </div>
+            <div>
+              <span class="add-on-price on-one"></span>
+            </div>
+          </div>
+        </div>
+        <div class="outer-add-on" id="add-on-two">
+          <div class="check-box check-two">
+           <div class="tick">
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="9" viewBox="0 0 12 9"><path fill="none" stroke="#FFF" stroke-width="2" d="m1 4 3.433 3.433L10.866 1"/></svg>
+           </div>
+          </div>
+          <div class="text-flex">
+            <div class="main-add-on">
+              <span class="text larger">Larger storage</span>
+              <p class="P">Extra 1TB of cloud save</p>
+            </div>
+            <div>
+              <span class="add-on-price on-two"></span>
+            </div>
+          </div>
+        </div>
+        <div class="outer-add-on" id="add-on-three">
+          <div class="check-box check-three">
+           <div class="tick">
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="9" viewBox="0 0 12 9"><path fill="none" stroke="#FFF" stroke-width="2" d="m1 4 3.433 3.433L10.866 1"/></svg>
+           </div>
+          </div>
+          <div class="text-flex">
+            <div class="main-add-on">
+              <span class="text custom"> Customizable Profile</span>
+              <p class="P">Custom theme on your profile</p>
+            </div>
+            <div>
+              <span class="add-on-price on-three"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="page2.html" class="back-btn">Go back</a>
+      <a href="page4.html" class="button">Next Step</a>
+    </main>
+    <!-- Step 2 end -->
+  </div>
+  <div class="bottom">    
+    <a href="page2.html" class="back-btn back-mobile">Go back</a>
+    <a href="page4.html" class="button mobile-btn">Next Step</a>
+  </div>
+  <script src="page3.js" type="module"></script>
+ 
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
+ <!-- Step 3 end -->

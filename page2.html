@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Multi-step form</title>
+</head>
+<body>
+  <aside class="mobile">
+    <div class="steps">
+      <div class="step">
+        <div class="circle">1</div>
+        <div class="step-info">
+          <span>Step 1</span>
+          <strong>Your info</strong>
+        </div>
+      </div>
+      <div class="step">
+        <div class="circle active">2</div>
+        <div class="step-info">
+          <span>Step 2</span>
+          <strong>Select plan</strong>
+        </div>
+      </div>
+      <div class="step">
+        <div class="circle">3</div>
+        <div class="step-info">
+          <span>Step 3</span>
+          <strong>Add-ons</strong>
+        </div>
+      </div>
+      <div class="step">
+        <div class="circle">4</div>
+        <div class="step-info">
+          <span>Step 4</span>
+          <strong>Summary</strong>
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="main step-two-mobile">
+    <!-- Sidebar start -->
+    <aside>
+      <div class="steps">
+        <div class="step">
+          <div class="circle">1</div>
+          <div class="step-info">
+            <span>Step 1</span>
+            <strong>Your info</strong>
+          </div>
+        </div>
+        <div class="step">
+          <div class="circle active">2</div>
+          <div class="step-info">
+            <span>Step 2</span>
+            <strong>Select plan</strong>
+          </div>
+        </div>
+        <div class="step">
+          <div class="circle">3</div>
+          <div class="step-info">
+            <span>Step 3</span>
+            <strong>Add-ons</strong>
+          </div>
+        </div>
+        <div class="step">
+          <div class="circle">4</div>
+          <div class="step-info">
+            <span>Step 4</span>
+            <strong>Summary</strong>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <!-- Sidebar end -->
+
+    <!-- Step 2 start -->
+    <main>
+      <h2>Select your plan</h2>
+      <p class="p">You have the option of monthly or yearly billing.</p>
+
+      <div>
+        <div class="plans">
+          <div class="plan" id="plan-one">
+            <div class="svg">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"><g fill="none" fill-rule="evenodd"><circle cx="20" cy="20" r="20" fill="#FFAF7E"/><path fill="#FFF" fill-rule="nonzero" d="M24.995 18.005h-3.998v5.998h-2v-5.998H15a1 1 0 0 0-1 1V29a1 1 0 0 0 1 1h9.995a1 1 0 0 0 1-1v-9.995a1 1 0 0 0-1-1Zm-5.997 8.996h-2v-1.999h2v2Zm2-11.175a2.999 2.999 0 1 0-2 0v2.18h2v-2.18Z"/></g></svg>
+            </div>
+            <div class="flex-text">
+              <div><strong class="arcade-title">Arcade</strong></div>
+              <div><span class="arcade">$9/mo</span></div>
+              <div class="months-free planOne"><span>2 months free</span></div>
+            </div>
+          </div>
+          <div class="plan" id="plan-two">
+            <div class="svg">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"><g fill="none" fill-rule="evenodd"><circle cx="20" cy="20" r="20" fill="#F9818E"/><path fill="#FFF" fill-rule="nonzero" d="M25.057 15H14.944C12.212 15 10 17.03 10 19.885c0 2.857 2.212 4.936 4.944 4.936h10.113c2.733 0 4.943-2.08 4.943-4.936S27.79 15 25.057 15ZM17.5 20.388c0 .12-.108.237-.234.237h-1.552v1.569c0 .126-.138.217-.259.217H14.5c-.118 0-.213-.086-.213-.203v-1.583h-1.569c-.126 0-.217-.139-.217-.26v-.956c0-.117.086-.213.202-.213h1.584v-1.554c0-.125.082-.231.203-.231h.989c.12 0 .236.108.236.234v1.551h1.555c.125 0 .231.083.231.204v.988Zm5.347.393a.862.862 0 0 1-.869-.855c0-.472.39-.856.869-.856.481 0 .87.384.87.856 0 .471-.389.855-.87.855Zm1.9 1.866a.86.86 0 0 1-.87-.852.86.86 0 0 1 .87-.855c.48 0 .87.38.87.855a.86.86 0 0 1-.87.852Zm0-3.736a.862.862 0 0 1-.87-.854c0-.472.39-.856.87-.856s.87.384.87.856a.862.862 0 0 1-.87.854Zm1.899 1.87a.862.862 0 0 1-.868-.855c0-.472.389-.856.868-.856s.868.384.868.856a.862.862 0 0 1-.868.855Z"/></g></svg>
+            </div>
+            <div class="flex-text">
+              <div><strong class="advanced-title">Advanced</strong></div>
+              <div><span class="advanced">$12/mo</span></div>
+              <div class="months-free planTwo"><span>2 months free</span></div>
+            </div>
+          </div>
+          <div class="plan" id="plan-three">
+            <div class="svg">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"><g fill="none" fill-rule="evenodd"><circle cx="20" cy="20" r="20" fill="#483EFF"/><path fill="#FFF" fill-rule="nonzero" d="M26.666 13H13.334A3.333 3.333 0 0 0 10 16.333v7.193a3.447 3.447 0 0 0 2.14 3.24c1.238.5 2.656.182 3.56-.8L18.52 23h2.96l2.82 2.966a3.2 3.2 0 0 0 3.56.8 3.447 3.447 0 0 0 2.14-3.24v-7.193A3.333 3.333 0 0 0 26.666 13Zm-9.333 6H16v1.333a.667.667 0 0 1-1.333 0V19h-1.333a.667.667 0 0 1 0-1.334h1.333v-1.333a.667.667 0 1 1 1.333 0v1.333h1.333a.667.667 0 1 1 0 1.334Zm7.333 2a2.667 2.667 0 1 1 0-5.333 2.667 2.667 0 0 1 0 5.333ZM26 18.333a1.333 1.333 0 1 1-2.667 0 1.333 1.333 0 0 1 2.667 0Z"/></g></svg>
+            </div>
+            <div class="flex-text">
+              <div><strong class="pro-title">Pro</strong></div>
+              <div><span class="pro">$15/mo</span></div>
+              <div class="months-free planThree"><span>2 months free</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="period">
+          <div class="month-year">
+            <span class="month active-period">Monthly</span>
+            <div class="checkbox-block">
+              <div class="toggle-btn"></div>
+            </div>
+            <span class="year">Yearly</span>
+          </div>
+        </div>
+      </div>
+      <a href="index.html" class="back-btn">Go back</a>
+      <a href="page3.html" class="button page3-next">Next Step</a>
+    </main>
+    <!-- Step 2 end -->
+  </div>
+  
+  <div class="bottom">    
+    <a href="index.html" class="back-btn back-mobile">Go back</a>
+    <a href="page3.html" class="button mobile-btn  page3-next">Next Step</a>
+  </div>
+  <script src="page2.js"></script>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
